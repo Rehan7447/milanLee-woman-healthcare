@@ -1,0 +1,132 @@
+figure {
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 0 !important;
+	position: relative;
+}
+
+.sec4-centered1 {
+	position: absolute;
+	bottom: 8px;
+	left: 90px;
+	transform: translate(-50%, -50%);
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: 500;
+}
+
+.sec4-centered2 {
+	bottom: 95px;
+	left: 9px;
+	transform: translate(-50%, -50%);
+	font-size: 0.8rem;
+	color: #fff;
+	width: 100%;
+	position: relative;
+}
+
+.port:hover .sec4-centered2 {
+	bottom: 114px;
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.port:hover .sec4-centered1 {
+	bottom: 31px;
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	width: 100%;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: 0.7;
+}
+
+.sec4-row {
+	margin: auto !important;
+}
+
+.sec4-btn-area {
+	width: 100%;
+	text-align: center;
+	padding: 6rem 0 7rem 0;
+}
+
+.sec4-btn {
+	margin: auto;
+}
+
+.portfolioDisc {
+	width: 100%;
+	height: 0px;
+	padding-top: 0px;
+	overflow: hidden;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	margin-top: 0;
+	position: absolute;
+	background-color: #fff;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #507898;
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
+
+.port {
+	width: 100%;
+	position: relative;
+}
+
+.port:hover .portfolioDisc {
+	margin-top: -50px;
+	height: 69px;
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+	.hover01 {
+		margin-bottom: 3rem;
+	}
+
+	.sec4-btn-area {
+		padding: 0 0 5rem 0;
+	}
+
+	.hover01 figure img {
+		height: 100%;
+	}
+	.sec4-centered1 {
+		position: absolute;
+		bottom: 8px;
+		left: 83px;
+		transform: translate(-50%, -50%);
+		font-size: 1.3rem;
+		color: #fff;
+		font-weight: 500;
+	}
+
+	.sec4-centered2 {
+		bottom: 78px;
+		left: 15px;
+		transform: translate(-50%, -50%);
+		font-size: 0.6rem;
+		color: #fff;
+		width: 100%;
+		position: relative;
+	}
+}

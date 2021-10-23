@@ -1,0 +1,27 @@
+.encounter{
+    margin-top: 10rem;
+    background-color: #000;
+    background-image: url('../images/splashscreen.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encounter-heading{
+    text-align: center;
+    color: white;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+@media(max-width:576px){
+    .encounter-heading{
+        
+        font-size: 25px;
+        
+    }
+}

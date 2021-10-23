@@ -1,0 +1,29 @@
+.eventSlider {
+	width: 90%;
+	height: 500px;
+	margin: auto;
+}
+
+.carousel-item {
+	min-height: 500px;
+	height: 500px;
+}
+
+.carousel-item img {
+	width: 50;
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+.eventSlider-data {
+	text-align: left;
+	background-color: white;
+	position: relative;
+	padding: 5%;
+	bottom: 23rem;
+	left: 28rem;
+	width: 50%;
+	height: 300px;
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}

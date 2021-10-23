@@ -1,0 +1,97 @@
+.foot-back {
+	background-color: #16181d;
+}
+
+.foot-lower-sec {
+	border-top: 1px solid #82858f;
+}
+.foot-lower-sec-area {
+	padding: 3rem 3rem;
+}
+
+.foot-upper-sec {
+	border-top: 1px solid #82858f;
+}
+.foot-upper-sec-area {
+	padding: 3rem 3rem;
+}
+
+.foot-line-1 {
+	color: #fff;
+	font-size: 1.2rem;
+	display: block;
+	padding-bottom: 1.5rem;
+}
+
+.foot-line-2 {
+	color: #82858f;
+	font-size: 1rem;
+}
+
+.foot-line-3 {
+	color: #82858f;
+	font-size: 1rem;
+}
+
+.foot-line-4 {
+	color: #82858f !important;
+	font-size: 0.8rem;
+}
+
+.foot-input {
+	background-color: transparent;
+	height: 50px;
+	border: 1px solid #82858f;
+	padding: 0 1rem;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.foot-btn {
+	background-color: #507898;
+	color: #fff;
+	text-transform: uppercase;
+	height: 50px;
+	border: none;
+	width: 100%;
+}
+.last-line {
+	padding-top: 2rem;
+}
+.fa-facebook {
+	padding-right: 2rem;
+}
+
+.foot-float-right {
+	float: right;
+}
+
+.foot-upper-sec-right {
+	align-items: center;
+	display: flex;
+}
+
+@media only screen and (max-width: 991px) {
+	.foot-lower-sec-area {
+		padding: 3rem 1rem;
+	}
+
+	.foot-sec-1 {
+		padding-bottom: 2rem;
+	}
+
+	.foot-sec-2 {
+		padding-bottom: 2rem;
+	}
+	.foot-sec-3 {
+		padding-bottom: 2rem;
+	}
+
+	.foot-float-right {
+		float: left;
+	}
+
+	.foot-logo-sm {
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+}

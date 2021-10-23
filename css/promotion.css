@@ -1,0 +1,140 @@
+@font-face {
+    font-family: vantam;
+    src: url('../fonts/glyphicons-halflings-regular.woff');
+}
+
+.Promotions{
+    margin-top: 5rem;
+    position: relative;
+    overflow: hidden;
+}
+.Promotion-heading{
+text-align: center;
+font-family: 'Noto Serif Display', serif;
+color: black;
+font-weight: bold;
+font-size: 2rem;
+}
+.horizantal-line{
+    width: 3%;
+    text-align: center;
+    border-top:2px solid rgba(0,0,0,.1);
+}
+.promotion-text{
+    text-align: center;
+    color: #474b56;
+}
+.small-div{
+    background:white;
+    color: #424242;
+    padding:10px 0px ;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: all .3s ease;
+}
+#gallery{
+    border: 1px solid gray;
+    margin: 5px auto;
+    width: 1500px;
+    overflow: hidden;
+    box-shadow: 5px 6px 28px rgb(0 0 0 / 10%);
+    flex-wrap: nowrap;
+
+}
+.promotion-img{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 100%;
+    display: block;
+    transition: all .3s ease;
+}.overlay-div{
+    width: 80%;
+    background-color: white;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    transition: all .3s ease;
+    transform: translateX(-100%);
+}.booking-btn{
+    width: 200px;
+    color: white;
+    background-color: #507898;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 5rem;
+}
+.overlay-div h4{
+    margin-top: 4rem;
+    position: relative;
+}
+
+.overlay-div p{
+    font-size: 14px;
+}
+.promotion-img:hover .small-div{
+transform: translateY(100%);
+}
+.promotion-img:hover .overlay-div{
+    transform: translateX(0%);
+}
+.img-1{
+    background: url('../images/treatments.jpg');
+    width: 100%;
+    background-size: cover;
+}
+.img-2{
+    background: url('../images/treatment1.jpg');
+    width: 100%;
+    background-size: cover;
+}
+.img-3{
+    background: url('../images/treatment2.jpg');
+    width: 100%;
+    background-size: cover;
+}
+.img-4{
+    background: white;
+    width: 100%;
+    background-size: cover;
+}
+.img-5{
+    background:url('../images/treatment3.jpg');
+    width: 100%;
+    background-size: cover;
+}
+.img-6{
+    background:url('../images/treatment4.jpg');
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+.img-7{
+    background:white;
+    width: 100%;
+    background-size: cover;
+}
+
+
+@media(max-width:1600px){
+    #gallery{
+        margin-left: 10%;
+    }
+}
+
+@media(max-width:1270px){
+    #gallery{
+        margin-left: 1%;
+    }
+}
