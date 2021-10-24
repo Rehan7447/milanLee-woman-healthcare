@@ -1,155 +1,168 @@
 @font-face {
-  font-family: vantam;
-  src: url("../fonts/glyphicons-halflings-regular.woff");
+    font-family: vantam;
+    src: url('../fonts/glyphicons-halflings-regular.woff');
 }
 
-.extra-mile {
-  margin-top: 7rem;
-  overflow-x: hidden;
-}
-.extra-mile-content-container {
-  padding-right: 4%;
-  padding-left: 15%;
-  margin-top: 10rem;
-}
-
-.extra-mile-right-content {
-  display: flex !important;
-  flex-direction: column !important;
-
-  align-items: center;
-  margin-top: 1rem;
-  margin-left: -11%;
-}
-.extra-mile-right-content img {
-  width: 20%;
-  height: auto;
-}
-.extra-mile-heading {
-  text-align: center;
-  font-family: "Noto Serif Display", serif;
-  color: black;
-  font-weight: bold;
-  font-size: 2rem;
-}
-.extra-mile-heading-2 {
-  text-align: center;
-  font-family: "Noto Serif Display", serif;
-  color: black;
-  font-weight: 500;
-  font-size: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-.horizantal-line {
-  width: 3%;
-  text-align: center;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
-}
-.extra-mile-text {
-  text-align: center;
-  color: #474b56;
-}
-.extra-mile-text-2 {
-  text-align: center;
-  color: #474b56;
-  width: 430px;
-}
-.extra-mile-sub-text {
-  text-align: center;
-  color: #507898;
-}
-.extra-mile-sub-text a {
-  text-transform: uppercase;
-  color: #507898;
-  position: relative;
-  text-decoration: none;
-}
-.extra-mile-sub-text a:hover {
-  text-decoration: none;
-}
-.extra-mile-sub-text a::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  left: 0;
-  height: 3px;
-  bottom: -3px;
-  background-color: #507898;
-}
-.extra-mile-photo-3 {
-  width: 90%;
-}
-.extra-mile-photo-3 img {
-  width: 100%;
-  height: 550px;
-}
-#extra-mile-img {
-  transition: all 0.3s ease-in;
-}
-@media (max-width: 1710px) {
-  .extra-mile-content-container {
+.extra-mile{
+    margin-top: 7rem;
+    overflow-x:hidden;
+    
+}.extra-mile-content-container{
     padding-right: 4%;
     padding-left: 15%;
-  }
-  .extra-mile-right-content {
-    margin-left: -5%;
-  }
-  .extra-mile-photo-3 {
-    width: 100%;
-  }
+    margin-top: 10rem;
 }
-@media (max-width: 1650px) {
-  .extra-mile-content-container {
-    padding-right: 4%;
-    padding-left: 11%;
-  }
-  .extra-mile-right-content {
-    margin-left: -4%;
-  }
+
+.extra-mile-right-content{
+    display: flex !important;
+    flex-direction: column !important;
+   
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -11%;
 }
-@media (max-width: 1430px) {
-  .extra-mile-content-container {
-    padding-right: 4%;
-    padding-left: 9%;
-  }
-  .extra-mile-right-content {
-    margin-left: -2%;
-  }
-}
-@media (max-width: 1320px) {
-  .extra-mile-content-container {
-    padding-right: 4%;
-    padding-left: 5%;
-  }
-  .extra-mile-text-2 {
-    width: 100%;
-  }
-  .extra-mile-right-content {
-    margin-left: 0%;
-  }
-}
-@media (max-width: 1200px) {
-  .extra-mile-content-container {
-    padding-right: 2%;
-    padding-left: 1%;
-  }
-  .extra-mile-photo-3 img {
-    height: 500px;
-  }
-}
-@media (max-width: 768px) {
-  #extra-mile-content {
-    order: 2;
-  }
-  #extra-mile-img {
-    order: 1;
-    margin-bottom: 3rem;
-  }
-  .extra-mile-photo-3 img {
+.extra-mile-right-content img{
+    width: 20%;
     height: auto;
-  }
-  .extra-mile-content-container {
-    margin-top: 0rem;
-  }
 }
+.extra-mile-heading{
+text-align: center;
+font-family: 'Noto Serif Display', serif;
+color: black;
+font-weight: bold;
+font-size: 2rem;
+}
+.extra-mile-heading-2{
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    }
+.horizantal-line{
+    width: 3%;
+    text-align: center;
+    border-top:2px solid rgba(0,0,0,.1);
+}
+.extra-mile-text{
+    text-align: center;
+    color: #474b56;
+}
+.extra-mile-text-2{
+    text-align: center;
+    color: #474b56;
+    width: 430px;
+}
+.extra-mile-sub-text{
+    text-align: center;
+    color: #507898;
+}
+.extra-mile-sub-text a{
+    text-transform: uppercase;
+    color: #507898;
+    position: relative;
+    text-decoration: none;
+}
+.extra-mile-sub-text a:hover{
+text-decoration: none;
+}
+.extra-mile-sub-text a::after{
+position: absolute;
+content: '';
+width: 100%;
+left: 0;
+height: 3px;
+bottom: -3px;
+background-color: #507898;
+}
+.extra-mile-photo-3{
+    width: 90%;
+       
+    }
+    .extra-mile-photo-3 img{
+        width: 100%;
+        height: 550px;
+    }
+#extra-mile-img{
+    transition: all .3s ease-in;
+}
+    @media(max-width:1710px){
+        .extra-mile-content-container{
+            padding-right: 4%;
+            padding-left: 15%;
+            
+        }
+        .extra-mile-right-content{
+            margin-left:-5%
+        }
+        .extra-mile-photo-3{
+width: 100%;
+        }
+    }
+    @media(max-width:1650px){
+        .extra-mile-content-container{
+            padding-right: 4%;
+            padding-left: 11%;
+            
+        }
+        .extra-mile-right-content{
+            margin-left:-4%
+        }
+    }
+    @media(max-width:1430px){
+        .extra-mile-content-container{
+            padding-right: 4%;
+            padding-left: 9%;
+            
+        }
+        .extra-mile-right-content{
+            margin-left:-2%
+        }
+    }
+    @media(max-width:1320px){
+        .extra-mile-content-container{
+            padding-right: 4%;
+            padding-left: 5%;
+            
+        }
+        .extra-mile-text-2{
+            width: 100%;
+        }
+        .extra-mile-right-content{
+            margin-left:0%
+        }
+    }
+    @media(max-width:1200px){
+        .extra-mile-content-container{
+            padding-right: 2%;
+            padding-left: 1%;
+            
+        }
+        .extra-mile-photo-3 img{
+            height: 500px;
+        }
+    }
+    @media(max-width:768px){
+       #extra-mile-content{
+           order: 2;
+       }#extra-mile-img{
+           order: 1;
+           margin-bottom: 3rem;
+       }
+       .extra-mile-photo-3 img{
+        height: auto;
+    }.extra-mile-content-container{
+        margin-top: 0rem;
+    }
+    .extra-mile-content-container{
+        padding-right: 0%;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    }

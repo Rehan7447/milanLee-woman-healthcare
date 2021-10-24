@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/form-section.css" />
   <link rel="stylesheet" href="./css/featured-services.css" />
   <link rel="stylesheet" href="./css/eventSlider.css" />
+  <link rel="stylesheet" href="./css/treatment.css" />
   <!-- bootstrap style link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous" />
@@ -114,11 +115,91 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link nav-link-spaceRight" href="#">About the Gimini Studio <span
-                class="sr-only">(current)</span></a>
+            <div class="about-dropdown">
+              <button class="nav-link nav-link-spaceRight dropbtn">About The Gemini Studio</button>
+              <div class="about-dropdown-content">
+                <div class="row" style="width: 90%;margin: auto;text-align: center;">
+                  <div class="col-md-3 about-col-1 col-12">
+                    <span class="about-line1">About The Studio</span>
+                    <hr>
+                    <span class="about-line2">Welcome to The Gemini Atlanta, an exceptional space where beauty and
+                      health are held to the
+                      highest standard. We
+                      specialize in result-oriented, and customized skin care procedures that promote peak epidermal
+                      health. Our premium spa
+                      service is tailored to meet the specific, personal concerns of our clients. Our goal is to bring
+                      you a glowing smile
+                      when you see your reflection in the mirror</span>
+                    <div class="about-dropdown-btn-area"><button class="skin-care-btn about-dropdown-btn">LEARN ABOUT
+                        GEMINI</button></div>
+
+                  </div>
+                  <div class="col-md-3 about-col-1 col-12">
+                    <img src="images/promotions.jpg" class="slide2-overlay">
+                    <a href="#" class="drop-a1 drop-a1-hover-animation"><span class="about-line1">Promotions</span></a>
+                    <a href="#" class="drop-a2 drop-a2-hover-animation"><span class="about-line2">Learn About Our
+                        Promotions →</span></a>
+                  </div>
+                  <div class="col-md-3 about-col-1 col-12">
+                    <img src="images/events.jpg" class="slide2-overlay">
+                    <a href="#" class="drop-a1 drop-a1-hover-animation"><span class="about-line1">Events</span></a>
+                    <a href="#" class="drop-a2 drop-a2-hover-animation"><span class="about-line2">Let Us Celebrate With
+                        You →</span></a>
+                  </div>
+                  <div class="col-md-3 about-col-1 col-12">
+                    <img src="images/testimonials.jpg" class="slide2-overlay">
+                    <a href="#" class="drop-a1 drop-a1-hover-animation"><span
+                        class="about-line1">Testimonials</span></a>
+                    <a href="#" class="drop-a2 drop-a2-hover-animation"><span class="about-line2">Read About The Gemini
+                        Experience →</span></a>
+                  </div>
+                </div>
+                <!-- <a href="#">Schedule Soiree</a>
+                <a href="#">Book Now</a> -->
+              </div>
+            </div>
           </li>
           <li class="nav-item navItem-spaceUp">
-            <a class="nav-link nav-link-spaceRight" href="#">Services</a>
+            <div class="services-dropdown">
+              <button class="nav-link nav-link-spaceRight dropbtn">Services</button>
+              <div class="services-dropdown-content">
+                <div class="row" style="width: 90%;margin: auto;text-align: center;">
+                  <div class="col-md-3 about-col-1 col-12">
+                    <span class="about-line1">Services</span>
+                    <hr>
+                    <span class="about-line2">At the Gemini Atlanta, we have a wealth of exceptional services available
+                      for you. It is our mission to provide you the
+                      most indulgent, soothing, and revitalizing escape in the safest, most environmentally responsible
+                      way while supporting
+                      the growth of a vibrant community spirit. Enjoy the Gemini Experience today and see what our
+                      magnificent touch can do
+                      for you.</span>
+                    <div class="about-dropdown-btn-area"><button class="skin-care-btn about-dropdown-btn">OUR
+                        SERVICES</button></div>
+                  </div>
+                  <div class="col-md-3 about-col-1 col-12">
+                    <img src="images/designs.jpg" class="slide2-overlay">
+                    <a href="#"
+                      class="drop-a1 drop-a1-hover-animation drop-a1 drop-a1-hover-animation-hover-animation"><span
+                        class="about-line1">Our
+                        Experince</span></a>
+                    <a href="#" class="drop-a2 drop-a2-hover-animation"><span class="about-line2">Portfolio →</span></a>
+                  </div>
+                  <div class="col-md-3 about-col-1 col-12">
+                    <img src="images/treatments.jpg" class="slide2-overlay">
+                    <a href="#" class="drop-a1 drop-a1-hover-animation"><span class="about-line1">Treatments</span></a>
+                    <a href="#" class="drop-a2 drop-a2-hover-animation"><span class="about-line2">Get Your Body Right
+                        →</span></a>
+                  </div>
+                  <div class="col-md-3 about-col-1 col-12">
+                    <img src="images/ourprocess.jpg" class="slide2-overlay">
+                    <a href="#" class="drop-a1 drop-a1-hover-animation"><span class="about-line1">Our Process</span></a>
+                    <a href="#" class="drop-a2 drop-a2-hover-animation"><span class="about-line2">The Gemini Atlanta
+                        Experience →</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-spaceRight" href="#">Products</a>
@@ -127,9 +208,9 @@
             <a class="nav-link nav-link-spaceRight" href="#">#LoveYourSkin</a>
           </li>
           <li class="nav-item">
-            <div class="dropdown">
+            <div class="appoint-dropdown">
               <button class="nav-link nav-link-spaceRight dropbtn">Appointments</button>
-              <div class="dropdown-content">
+              <div class="appoint-dropdown-content">
                 <a href="#">Schedule Soiree</a>
                 <a href="#">Book Now</a>
               </div>
@@ -145,39 +226,152 @@
   <!-- HEADER ENDS HERE -->
 
 
+
+
   <!-- slider section start here -->
   <div class="slideshow-container">
     <div class="mySlides fade-slide">
 
-      <h1 class="video-heading1"> Welcome To </h1>
-      <h1 class="video-heading2"> The Gemni Atlanta</h1>
+      <h1 class="video-heading1">
+        <span class="v-text-1">W</span>
+        <span class="v-text-2">E</span>
+        <span class="v-text-3">L</span>
+        <span class="v-text-4">C</span>
+        <span class="v-text-5">O</span>
+        <span class="v-text-4">M</span>
+        <span class="v-text-5">E</span>
+        <span class="v-text-3">&nbsp;</span>
+        <span class="v-text-2">T</span>
+        <span class="v-text-1">O</span>
+
+         <!-- Welcome To  -->
+        </h1>
+      <h1 class="video-heading2">
+        <span class="v-text-1">T</span>
+        <span class="v-text-2">h</span>
+        <span class="v-text-4">e</span>
+        <span>&nbsp;</span>
+        <span class="v-text-1">G</span>
+        <span class="v-text-5">e</span>
+        <span class="v-text-3">m</span>
+        <span class="v-text-2">n</span>
+        <span class="v-text-1">i</span>
+        <span>&nbsp;</span>
+        <span class="v-text-5">A</span>
+        <span class="v-text-1">t</span>
+        <span class="v-text-2">l</span>
+        <span class="v-text-1">a</span>
+        <span class="v-text-4">n</span>
+        <span class="v-text-2">t</span>
+        <span class="v-text-1">a</span>
+        </h1>
       <p class="video-para">It's Your Lifestyle: Love Your Skin</p>
-      <video autoplay muted loop style="width:100%">
+      <video autoplay muted loop style="width:100%;">
         <source src="home_movie.mp4" type="video/mp4">
       </video>
       <div class="text">Video by social digital me</div>
     </div>
     <div class="mySlides fade-slide">
       <div class="slide-overlay-background"></div>
-      <h1 class="video-heading3">Experience The </h1>
-      <h1 class="video-heading4">Gemni Touch</h1>
+      <h1 class="video-heading3">
+        <span class="v-text-1">E</span>
+        <span class="v-text-2">x</span>
+        <span class="v-text-4">p</span>
+       
+        <span class="v-text-1">e</span>
+        <span class="v-text-5">r</span>
+        <span class="v-text-3">i</span>
+        <span class="v-text-2">e</span>
+        <span class="v-text-1">n</span>
+        
+        <span class="v-text-5">c</span>
+        <span class="v-text-1">e</span>
+        <span>&nbsp;</span>
+        <span class="v-text-2">T</span>
+        <span class="v-text-1">h</span>
+        <span class="v-text-4">e</span>
+       
+      
+      
+      </h1>
+      <h1 class="video-heading4">
+        <span class="v-text-1">G</span>
+        <span class="v-text-2">e</span>
+        <span class="v-text-4">m</span>
+       
+        <span class="v-text-1">i</span>
+        <span class="v-text-5">n</span>
+        <span class="v-text-3">i</span>
+        <span class="v-text-2">&nbsp;</span>
+        <span class="v-text-1">T</span>
+        
+        <span class="v-text-5">o</span>
+        <span class="v-text-1">u</span>
+        
+        <span class="v-text-2">c</span>
+        <span class="v-text-1">h</span>
+      
+       
+       </h1>
       <p class="video-para2">Your Youth is Safe in your hands</p>
-      <img src="images/slide_2.jpg" class="slide2-overlay">
+      <img src="images/slide_2.jpg" class="slide2-overlay" style="width:100%; ">
     </div>
     <div class="mySlides fade-slide">
       <div class="slide-overlay-background"></div>
-      <h1 class="video-heading5">Healthy , Safe </h1>
-      <h1 class="video-heading6">And Eco-Friendly</h1>
+      <h1 class="video-heading5">
+        <span class="v-text-1">H</span>
+        <span class="v-text-2">e</span>
+        <span class="v-text-4">a</span>
+       
+        <span class="v-text-1">l</span>
+        <span class="v-text-5">t</span>
+        <span class="v-text-3">h</span>
+        
+        <span class="v-text-1">y</span>
+        <span class="v-text-2">,</span>
+        <span>&nbsp;</span>
+        <span class="v-text-5">S</span>
+        <span class="v-text-1">a</span>
+        
+        <span class="v-text-2">f</span>
+        <span class="v-text-1">e</span>
+        </h1>
+      <h1 class="video-heading6">
+        <span class="v-text-1">A</span>
+        <span class="v-text-2">n</span>
+        <span class="v-text-4">d</span>
+       <span>&nbsp;</span>
+        <span class="v-text-1">E</span>
+        <span class="v-text-5">c</span>
+        <span class="v-text-3">o</span>
+        
+        <span class="v-text-1">-</span>
+        <span class="v-text-2">F</span>
+        
+        <span class="v-text-5">r</span>
+        <span class="v-text-1">i</span>
+        
+        <span class="v-text-2">e</span>
+        <span class="v-text-1">n</span>
+        <span class="v-text-1">d</span>
+        <span class="v-text-5">l</span>
+        <span class="v-text-3">y</span>
+       </h1>
       <p class="video-para3">We Bring Out The Beauty Inside, Leaving You Refreshed, Relaxed, & Restored</p>
-      <img src="images/slide_3.jpg" style="width:100%">
+      <img src="images/slide_3.jpg" style="width:100%;">
     </div>
   </div>
-  <br>
   <div class="lines-container">
     <span class="line" onclick="currentSlide(1)"></span>
     <span class="line" onclick="currentSlide(2)"></span>
     <span class="line" onclick="currentSlide(3)"></span>
   </div>
+  <br>
+  <!-- <div class="lines-container">
+    <span class="line" onclick="currentSlide(1)"></span>
+    <span class="line" onclick="currentSlide(2)"></span>
+    <span class="line" onclick="currentSlide(3)"></span>
+  </div> -->
   <!-- slider section end here -->
 
   <!-- skin care section starts here -->
@@ -190,7 +384,7 @@
       </div>
       <div class="col-lg-5 col-12 col-md-12 skin-content-container" id="experience-heading">
         <h1 class="skin-care-heading">Experience Exceptional Skin Care</h1>
-        <p class="skin-para">
+        <p class="skin-para" style="text-align: center !important; margin-bottom: 10%;">
 
           Welcome to the Gemini Atlanta. We are excited to share an unparalleled feeling of relaxation and indulgence
           with you. Our highly skilled staff of skin care professionals will exceed all of your expectations. From our
@@ -211,7 +405,8 @@
     <p class="promotion-text">SWEETEN THE DEAL</p>
     <div id="gallery">
       <div class="row">
-        <div class="col-3 promotion-img img-1">
+        <div class="col-3 promotion-img ">
+          <img class="img-1" src="images/treatments.jpg"/>
           <div class="small-div">
             A Two-fold experience
           </div>
@@ -221,7 +416,8 @@
             <button class="booking-btn">book an appointment</button>
           </div>
         </div>
-        <div class="col-3 promotion-img img-2">
+        <div class="col-3 promotion-img ">
+          <img class="img-2" src="images/treatment2.jpg"/>
           <div class="small-div">
             An Extra Touch
           </div>
@@ -232,7 +428,8 @@
             <button class="booking-btn">book an appointment</button>
           </div>
         </div>
-        <div class="col-3 promotion-img img-3">
+        <div class="col-3 promotion-img ">
+          <img class="img-3" src="images/treatment3.jpg"/>
           <div class="small-div">
             A Little Personality
           </div>
@@ -246,7 +443,8 @@
         <div class="col-3 promotion-img img-4"></div>
       </div>
       <div class="row">
-        <div class="col-3 promotion-img img-5">
+        <div class="col-3 promotion-img ">
+          <img class="img-5" src="images/treatment3.jpg"/>
           <div class="small-div">
             Couples discount
           </div>
@@ -256,7 +454,8 @@
             <button class="booking-btn">book an appointment</button>
           </div>
         </div>
-        <div class="col-3 promotion-img img-6">
+        <div class="col-3 promotion-img ">
+          <img class="img-6" src="images/treatment4.jpg"/>
           <div class="small-div">
             Gemini Loyality
           </div>
@@ -289,7 +488,7 @@
 
         </div>
         <div class="col-md-7" id="gemini-img">
-          <div class="gemini-photo-3">
+          <div class="gemini-photo-3" id="gemini-scroll-img">
             <img src="./images/healthy.jpg" />
           </div>
         </div>
@@ -304,7 +503,7 @@
     <div class="extra-mile-content-container">
       <div class="row">
         <div class="col-md-7" id="extra-mile-img">
-          <div class="extra-mile-photo-3">
+          <div class="extra-mile-photo-3" id="extra-scroll-img">
             <img src="./images/girl.jpg" />
           </div>
         </div>
@@ -341,7 +540,7 @@
     <hr class="horizantal-line" />
     <p class="gemini-text">HAVING A SPECIAL EVENT SOON?</p>
     <div class="eventSlider">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div id="carouselExampleLight" class="carousel carousel-dark slide carousel-Desktop" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
             aria-label="Slide 1" aria-current="true"></button>
@@ -350,7 +549,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="images/event_1.jpg" class="d-block animated fadeInRight" alt="...">
+            <img src="images/event_1.jpg" class="d-block animated fadeInLeft" alt="..." id="addAnimation1" style="animation-delay: 1s">
             <div class="eventSlider-data animated fadeInRight" id="addAnimation2">
               <h5 class="animated fadeInDown" style="animation-delay: 1.2s">
                 Couples Package
@@ -368,7 +567,7 @@
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="images/event_2.jpg" class="d-block animated fadeInLeft" alt="..." id="addAnimation3">
+            <img src="images/event_2.jpg" class="d-block animated fadeInLeft" alt="..." id="addAnimation3" style="animation-delay: 1s">
             <div class="eventSlider-data animated fadeInRight" id="addAnimation4">
               <h5 class="animated fadeInDown" style="animation-delay: 1.2s">
                 Girls Night Out
@@ -386,20 +585,137 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="carousel-control-prev eventPrev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
+          
+          <span><i class="fa fa-chevron-left"></i></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next eventNext" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
+          <span ><i class="fa fa-chevron-right"></i></span>
         </button>
       </div>
+
+      <!-- for mobile -->
+      <div id="carouselExampleLight" class="carousel carousel-dark slide carouselMobile" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+            class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/event_1.jpg" class="d-block animated fadeInLeft" alt="..." id="addAnimation1" style="animation-delay: 1s">
+            <div class="eventSlider-data-mob animated fadeInRight" id="addAnimation2">
+              <h5 class="animated fadeInDown" style="animation-delay: 1.2s">
+                Couples Package
+              </h5>
+              <p class="animated fadeInDown" style="animation-delay: 1.3s">
+                Dont be afraid to treat yourself
+              </p>
+              <p class="animated fadeIn" style="animation-delay: 1.5s">
+                While you spend time with your significant other at our studio,
+                you're bound to experience more than your average date night. We
+                welcome your group of partners to enjoy a much-needed get away
+                from your busy schedules and obligations, and truly appreciate
+                the moment
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/event_2.jpg" class="d-block animated fadeInLeft" alt="..." id="addAnimation3" style="animation-delay: 1s">
+            <div class="eventSlider-data-mob animated fadeInRight" id="addAnimation4">
+              <h5 class="animated fadeInDown" style="animation-delay: 1.2s">
+                Girls Night Out
+              </h5>
+              <p class="animated fadeInDown" style="animation-delay: 1.3s">
+                Dont be afraid to treat yourself
+              </p>
+              <p class="animated fadeIn" style="animation-delay: 1.5s">
+                While you spend time with your significant other at our studio,
+                you're bound to experience more than your average date night. We
+                welcome your group of partners to enjoy a much-needed get away
+                from your busy schedules and obligations, and truly appreciate
+                the moment
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev eventPrev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
+          <span><i class="fa fa-chevron-left"></i></span>
+        </button>
+        <button class="carousel-control-next eventNext" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
+          <span ><i class="fa fa-chevron-right"></i></span>
+        </button>
+      </div>
+      <!-- end for mobile -->
+
     </div>
   </section>
   <!-- EVENTS SECTION ENDS HERE -->
 
-  <!-- FEATURED SERVICES SECTION START HERE -->
+  <!-- Treatment Section starts here -->
+<section class="treatment">
+  <h1 class="treatment-heading">Treatments</h1>
+  <hr class="horizantal-line" />
+  <p class="treatment-text">SPECIALIZED FOR YOU</p>
+  <div class="treatment-content">
+    <div class="row">
+      <div class="col-lg-4 col-12 treatment-div-animation">
+        <div class="discount-offer-container">
+          <div class="discount-text">20% Off</div>
+      </div>
+        <img src="./images/Laser.jpg " alt="" id="laser-img" class="treatment-images">
+      </div>
+      <div class="col-12 col-lg-8 about-treatment" >
+        <h4 class="treatment-heading2">Laser Lipo</h4>
+        <p class="treatment-para">Laser Lipo using square pads is a minimally invasive cosmetic procedure that uses a laser to melt away fat under the skin.  The most common areas for laser lipo are the stomach area, love handles, thighs and arms.</p>
+   
+          </div>
+    </div>
+    <hr class="horizantal-line1" />
+    <div class="row">
+      <div class="col-12 col-lg-4 treatment-div-animation">
+        <div class="discount-offer-container">
+          <div class="discount-text">10% Off</div>
+      </div>
+        <img src="./images/ultrasone.jpg " alt="" id="laser-img" class="treatment-images">
+      </div>
+      <div class="col-12 col-lg-8 about-treatment" >
+        <h4 class="treatment-heading2">
+          Ultrasonic Cavitation
+       </h4>
+        <p class=" treatment-para">
+          Ultrasonic cavitation uses ultra sound technology to break apart fat cells.  Ultrasound waves are sent deep into the layers of the skin causing a disruptive vibration, expelling fat cells from the body.
+      </p>
+   
+          </div>
+    </div>
+    <hr class="horizantal-line1" />
+    <div class="row">
+      <div class="col-12 col-lg-4 treatment-div-animation">
+        <div class="discount-offer-container">
+          <div class="discount-text">15% Off</div>
+      </div>
+        <img src="./images/butt.jpg " alt="" id="laser-img" class="treatment-images">
+        <div class="treatment-div"></div>
+      </div>
+      <div class="col-12 col-lg-8 about-treatment" >
+        <h4 class="treatment-heading2">
+          Buttock Enhancement
+      </h4>
+        <p class="treatment-para">
+          A non-invasive procedure to enhance appearance of the buttocks without the need of silicone injections or surgery.  This treatment works by moving fat cells from other areas of the body into the rear tissue.
+      </p>
+   
+          </div>
+    </div>
+    <hr class="horizantal-line1" />
+    <button class="treatment-btn">All Event Packages</button>
+  </div>
+</section>
+  <!-- Treatment Section ends here -->
+
+   <!-- FEATURED SERVICES SECTION START HERE -->
   <section class="gemini">
     <h1 class="gemini-heading">Featured Services</h1>
     <hr class="horizantal-line" />
@@ -448,7 +764,7 @@
       </div>
 
     </div>
-  </section>
+  </section> 
   <!-- FEATURED SERVICES SECTION ENDS HERE -->
 
   <!-- MAP SECTION START HERE -->
@@ -465,7 +781,15 @@
   <section class="section-5">
     <div class="row sec5-upperArea">
       <div class="col-md-6 col-12">
-        <img class="sec5-img-1" src="images/contact_01.jpg">
+        <div class="sec5-img-1-area">
+          <div>
+            <h1 class="gemini-heading" style="color: #fff">Contact us</h1>
+            <hr class="horizantal-line"
+              style="color: #fff;margin: auto;margin-bottom: 1rem;width: 20%;border-top: 2px solid white !important;" />
+            <p class="gemini-text" style="color: #fff">WHATEVER YOU WANT TO KNOW, ASK US.</p>
+          </div>
+        </div>
+        <!-- <img class="sec5-img-1" src="images/contact_01.jpg"> -->
       </div>
       <div class="col-md-6 col-12">
         <div class="sec-5-form-area">
@@ -492,6 +816,7 @@
     </div>
   </section>
   <!-- FORM SECTION ENDS HERE -->
+
   <!-- FOOTER START HERE -->
   <footer class="foot-back">
     <div class="foot-upper-sec">
@@ -501,8 +826,10 @@
             <img class="foot-brand-img" src="images/foot-logo.jpg" alt="The Gemini Atlanta">
           </div>
           <div class="col-md-6 col-12 foot-upper-sec-right">
-            <i class="fa fa-facebook" style="font-size:48px;color:white;"></i>
-            <i class="fa fa-instagram" style="font-size:48px;color:white;"></i>
+            <div class="social-icon"><a href="https://www.facebook.com/katb_beauty-102581255046391/"><i
+                  class="fa fa-facebook" style="font-size:48px;color:white;"></i></a></div>
+            <div class="social-icon"><a href="https://www.instagram.com/katb_beauty/"><i class="fa fa-instagram"
+                  style="font-size:48px;color:white;"></i></a></div>
           </div>
         </div>
       </div>
@@ -513,14 +840,16 @@
           <div class="col-lg-3 col-md-4 col-12 foot-sec-1">
             <div>
               <span class="foot-line-1">Telephone & Email</span>
-              <a class="foot-line-2" href="tel:+4049266144">(404)926-6144</a>
-              <a class="foot-line-3" href="mailto:info@thegeminiatlanta.com">info@thegeminiatlanta.com</a>
+              <a class="foot-line-2 foot-line-2-hover-animation" href="tel:+4049266144">(404)926-6144</a>
+              <a class="foot-line-3 foot-line-2-hover-animation"
+                href="mailto:info@thegeminiatlanta.com">info@thegeminiatlanta.com</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-6 foot-sec-2">
             <span class="foot-line-1">The Studio</span>
             <span class="foot-line-2">4651 Woodstock Road, Suite 203</span>
-            <a class="foot-line-3" target="blank" href="https://goo.gl/maps/PR6B6gpzoG3KZeD47">Roswell, GA, 30075</a>
+            <a class="foot-line-3 foot-line-2-hover-animation" target="blank"
+              href="https://goo.gl/maps/PR6B6gpzoG3KZeD47">Roswell, GA, 30075</a>
           </div>
           <div class="col-lg-3 col-md-4 col-6 foot-sec-3">
             <span class="foot-line-1">Studio Hours</span>
@@ -538,11 +867,12 @@
         </div>
         <div class="row last-line">
           <div class="col-md-6 col-12">
-            <a href="#" class="foot-line-4">Privacy Policy</a>
-            <a href="#" class="foot-line-4">Тerms & Conditions</a>
+            <a href="#" class="foot-line-4 foot-line-4-hover-animation">Privacy Policy</a>
+            <a href="#" class="foot-line-4 foot-line-4-hover-animation">Тerms & Conditions</a>
           </div>
           <div class="col-md-6 col-12">
-            <span class="foot-line-4 foot-float-right">© 2020 The Gemini Studio. All Rights Reserved.</span>
+            <span class="foot-line-4 foot-float-right">© 2020 The Gemini Studio. All Rights
+              Reserved.</span>
           </div>
         </div>
       </div>

@@ -1,0 +1,164 @@
+.treatment{
+    background-color: #16181d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.treatment-heading{
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    }
+.treatment-div-animation{
+    transition: all .3s ease;
+    overflow: hidden;
+    position: relative;
+}
+.treatment-div-animation:hover .treatment-images{
+    transform: scale(1.2);
+}
+
+
+    .treatment-heading2{
+        text-align: left;
+        font-family: 'Noto Serif Display', serif;
+        color: white;
+        font-weight: bold;
+        font-size: 1.8rem;
+        }   
+        .treatment-para{
+            text-align: left;
+          
+            color: white;
+            
+            font-size: 1rem;
+        }
+    .treatment-text{
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+    }
+    .treatment .horizantal-line{
+        border-color:white ;
+    }
+    .horizantal-line1{
+        width: 100%;
+        border-color:white ;
+    }
+    .treatment-content{
+        margin-left: 25%;
+        margin-right: 25%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .treatment-images{
+        width: 300px;
+        height: auto;
+        transition: all .3s ease;
+    }
+    .about-treatment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .treatment-btn{
+        width: 200px;
+        color: white;
+        background-color: #507898;
+        border: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 5rem;
+        transition: all .3s ease;
+    }
+    .discount-offer-container{
+       
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-align: center;
+    width: 70px;
+    height: 85px;
+    padding: 15px;
+    }
+    .discount-offer-container::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 10px;
+        z-index: 1;
+        background: white;
+        
+        clip-path: polygon(60px 0, 60px 60px, 35px 75px, 0 60px, 0 0);
+        transition: all .3s ease;
+        
+    }
+    .treatment-div-animation:hover .discount-offer-container::before {
+        clip-path: polygon(80px 0, 80px 70px, 35px 75px, 0 70px, 0 0);
+    }
+    .discount-text{
+        z-index: 5 !important;
+        position: relative;
+    }
+    .treatment-btn:hover{
+        background-color: white;
+        color: black;
+    }
+
+    @media(max-width:1900px){
+        .treatment-content{
+            margin-left: 20%;
+            margin-right: 20%;
+    }
+}
+@media(max-width:1550px){
+    .treatment-content{
+        margin-left: 15%;
+        margin-right: 15%;
+}
+}
+@media(max-width:1330px){
+    .treatment-content{
+        margin-left: 10%;
+        margin-right: 10%;
+}
+}
+@media(max-width:1160px){
+    .treatment-content{
+        margin-left: 5%;
+        margin-right: 5%;
+}
+}
+@media(max-width:1030px){
+    .treatment-content{
+        margin-left: 3%;
+        margin-right: 3%;
+}
+}
+@media(max-width:991px){
+    .treatment-images{
+        width: 100%;
+        height: auto;
+        margin-bottom: 3rem;
+    }
+    .treatment-content{
+        margin-left: 0%;
+        margin-right: 0%;
+}
+.treatment-content .row{
+    margin-left: 0px !important;
+}
+}

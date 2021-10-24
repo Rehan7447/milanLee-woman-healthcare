@@ -44,6 +44,7 @@ width: 100%;
     color: #8b8b8b;
     margin-top: 5rem;
     margin-left: 6rem;
+    text-align: left;
 }
 .skin-care-btn{
     background-color: #507898;
@@ -52,7 +53,11 @@ width: 100%;
     border: none;
     padding: 10px;
     text-align: center;
-    margin-left: 6rem
+    margin-left: 6rem;
+    transition: all .3s ease;
+}
+.skin-care-btn:hover{
+    opacity: 0.5;
 }
 @media(max-width:1984px){
     .skin-care-heading{
@@ -131,6 +136,14 @@ width: 100%;
         justify-content: center;
 
     }
+    .skin-care{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media(max-width:576px){
     .home-photo-3 img{
@@ -144,7 +157,7 @@ width: 100%;
     }
     .skin-para{
         margin-left: 0rem;
-        text-align: center;
+       
         margin-top: 1rem;
     }
     .skin-care-btn{

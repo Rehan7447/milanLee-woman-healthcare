@@ -1,175 +1,181 @@
 .section-5 {
-  position: relative;
+	position: relative;
 }
 .row {
-  width: 100%;
+	width: 100%;
 }
 
 .sec5-lowerImg-area {
-  margin: 0 10rem;
-  position: relative;
-  text-align: center;
-  color: #beb8b6;
-  background-image: url("../images/Pic-08.jpg");
-  height: 100%;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8rem 0;
-  bottom: -40px;
+	margin: 0 10rem;
+	position: relative;
+	text-align: center;
+	color: #beb8b6;
+	background-image: url("../images/Pic-08.jpg");
+	height: 100%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8rem 0;
+	bottom: -40px;
 }
 
 .sec5-img-top-text {
-  display: block;
-  font-size: 2rem;
+	display: block;
+	font-size: 2rem;
 }
 
 .sec5-upperArea {
-  padding: 3rem 5rem;
-  margin-top: 0;
-  padding-bottom: 0;
+	padding: 3rem 5rem;
+	margin-top: 0;
+	padding-bottom: 0;
 }
 
 .sec-5-form-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  box-shadow: 0 0 30px 0 rgb(0 0 0 / 8%);
-  position: relative;
-  top: -120px;
-  background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	box-shadow: 0 0 30px 0 rgb(0 0 0 / 8%);
+	position: relative;
+	top: -120px;
+	background: white;
 }
 
 .sec5-form-head {
-  color: black;
-  font-size: 1.8rem;
+	color: black;
+	font-size: 1.8rem;
 }
 
 .sec5-form {
-  width: 80%;
-  text-align: center;
+	width: 80%;
+	text-align: center;
 }
 
 .sec5-btn {
-  padding: 14px 15px;
-  background: #507898;
-  color: #fff;
+	padding: 14px 15px;
+	background: #507898;
+	color: #fff;
 }
 
-.sec5-img-1 {
-  width: 140%;
-  position: relative;
-  top: -200px;
-  filter: brightness(50%);
+.sec5-img-1-area {
+	width: 140%;
+	position: relative;
+	top: -200px;
+	background-image: url("../images/contact_02.jpg");
+	height: 100%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .sec5-inputFields {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 0;
-  border: 1px solid grey;
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 0;
+	border: 1px solid grey;
 }
 
 .sec5-textareaFields {
-  width: 100%;
-  height: 6rem;
-  border-radius: 0;
-  border: 1px solid grey;
+	width: 100%;
+	height: 6rem;
+	border-radius: 0;
+	border: 1px solid grey;
 }
 
 .sec5-form-btn {
-  width: 100%;
-  height: 3rem;
-  color: white;
-  background-color: #507898;
-  border: none;
+	width: 100%;
+	height: 3rem;
+	color: white;
+	background-color: #507898;
+	border: none;
 }
 
 @media only screen and (max-width: 767px) {
-  .section-5 {
-    top: -100px;
-  }
-  .sec5-upperArea {
-    padding: 0;
-    margin-top: 0;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-  }
+	.section-5 {
+		top: -100px;
+	}
+	.sec5-upperArea {
+		padding: 0;
+		margin-top: 0;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
 
-  .sec5-img-1 {
-    width: 100%;
-    top: 0;
-    filter: brightness(50%);
-  }
+	.sec5-img-1-area {
+		width: 100%;
+		top: 0;
+	}
 
-  .sec-5-form-area {
-    padding: 0px 1rem;
-    position: relative;
-    top: 0;
-    width: 100%;
-    margin: auto;
-    background: #fff;
-    padding-top: 1rem;
-  }
+	.sec-5-form-area {
+		padding: 0px 1rem;
+		position: relative;
+		top: 0;
+		width: 100%;
+		margin: auto;
+		background: #fff;
+		padding-top: 1rem;
+	}
 
-  .sec5-form-head {
-    color: black;
-    font-size: 1rem;
-    font-weight: 600;
-  }
+	.sec5-form-head {
+		color: black;
+		font-size: 1rem;
+		font-weight: 600;
+	}
 
-  .sec5-form {
-    width: 100%;
-  }
+	.sec5-form {
+		width: 100%;
+	}
 
-  .sec5-inputFields {
-    padding: 0.5rem;
-  }
+	.sec5-inputFields {
+		padding: 0.5rem;
+	}
 
-  .sec5-textareaFields {
-    height: 5rem;
-  }
+	.sec5-textareaFields {
+		height: 5rem;
+	}
 
-  .sec5-form-btn {
-    height: 3rem;
-  }
+	.sec5-form-btn {
+		height: 3rem;
+	}
 
-  .sec5-lowerImg-area {
-    margin: 0 1rem;
-    position: relative;
-    color: #fff;
-    background-image: url("../images/Pic-08.jpg");
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 1rem !important;
-    bottom: 0;
-    padding: 5rem 0;
-    font-weight: 400;
-  }
+	.sec5-lowerImg-area {
+		margin: 0 1rem;
+		position: relative;
+		color: #fff;
+		background-image: url("../images/Pic-08.jpg");
+		height: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-bottom: 1rem !important;
+		bottom: 0;
+		padding: 5rem 0;
+		font-weight: 400;
+	}
 
-  /* .sec5-img-inside {
-	} */
+	.sec5-img-inside {
+	}
 
-  .sec5-img-top-text {
-    display: block;
-    font-size: 2rem;
-  }
+	.sec5-img-top-text {
+		display: block;
+		font-size: 2rem;
+	}
 
-  .sec5-btn {
-    padding: 14px 15px;
-    background: #507898;
-    color: #fff;
-  }
+	.sec5-btn {
+		padding: 14px 15px;
+		background: #507898;
+		color: #fff;
+	}
 }
 
 @media only screen and (max-width: 1200px) {
-  .sec5-lowerImg-area {
-    margin: 0 1rem;
-    margin-top: 1rem;
-  }
+	.sec5-lowerImg-area {
+		margin: 0 1rem;
+		margin-top: 1rem;
+	}
 }

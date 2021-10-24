@@ -34,8 +34,24 @@
 }
 
 .foot-line-4 {
-	color: #82858f !important;
+	color: #82858f;
 	font-size: 0.8rem;
+	padding-right: 1rem;
+}
+
+.foot-line-2:hover {
+	color: #82858f;
+	text-decoration: none;
+}
+
+.foot-line-3:hover {
+	color: #82858f;
+	text-decoration: none;
+}
+
+.foot-line-4:hover {
+	color: #82858f;
+	text-decoration: none;
 }
 
 .foot-input {
@@ -53,6 +69,11 @@
 	height: 50px;
 	border: none;
 	width: 100%;
+	transition: all .3s ease;
+}
+.foot-btn:hover{
+	color: black;
+	background-color: white;
 }
 .last-line {
 	padding-top: 2rem;
@@ -94,4 +115,91 @@
 		text-align: center;
 		padding-bottom: 3rem;
 	}
+}
+
+/* ANIMATION ON HOVER */
+.foot-line-2-hover-animation {
+	display: inline-block;
+	position: relative;
+	color: #82858f;
+	width: fit-content;
+}
+
+.foot-line-2-hover-animation:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #82858f;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.foot-line-2-hover-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.foot-line-4-hover-animation {
+	display: inline-block;
+	position: relative;
+	color: #82858f;
+	width: fit-content;
+}
+
+.foot-line-4-hover-animation:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.foot-line-4-hover-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+/* ANIMATION ON HOVER */
+
+.social-icon {
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border-radius: 50%;
+	margin-right: 2rem;
+}
+
+.social-icon:hover {
+	background: #fff;
+	transition: transform 0.25s ease-out;
+}
+
+.social-icon:hover .fa-facebook {
+	color: grey !important;
+	transition: transform 0.25s ease-out;
+}
+
+.social-icon:hover .fa-instagram {
+	color: grey !important;
+	transition: transform 0.25s ease-out;
+}
+
+.fa-facebook {
+	padding-right: 0 !important;
+}
+
+.fa-instagram {
+	padding-right: 0 !important;
 }

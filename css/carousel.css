@@ -1,17 +1,11 @@
-* {
-  box-sizing: border-box !important;
-}
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
+* {box-sizing: border-box !important}
+body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {
-  display: none;
-  position: relative;
+    
+    display: none;
+    position: relative;
 }
-img {
-  vertical-align: middle;
-}
+img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -19,9 +13,10 @@ img {
   position: relative;
   margin: auto;
   z-index: -1;
+ 
 }
-.slide-overlay-background {
-  background-color: rgba(0, 0, 0, 0.6);
+.slide-overlay-background{
+  background-color: rgba(0,0,0,0.6);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -29,291 +24,341 @@ img {
   left: 0;
   z-index: 2;
 }
+.text{
+  position: absolute;
+  top:94%
+}
 /* line container */
-.lines-container {
-  text-align: center;
-  z-index: 2;
-  margin-top: -5rem;
+.lines-container{
+    text-align:center;
+    z-index: 2;
+    margin-top: -5rem;
 }
 /* video heading */
-.video-heading1 {
-  z-index: 3;
-  position: absolute;
-  left: 41%;
-  top: 30%;
+.video-heading1{
+    z-index: 3;
+     position: absolute;
+     left: 41%;
+      top:30%;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+animation-name:showHeading1;
+animation-duration: .2s;
+animation-delay: 3s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+
+}
+.video-heading2 span,.video-heading3 span,.video-heading4 span,.video-heading5 span,.video-heading6 span{
+  margin-left: -9px;
+}
+.v-text-1{
+
+  animation-name:showanimatedtext;
+animation-duration: .3s;
+animation-delay: 2s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+}
+.v-text-2{
+  
+  animation-name:showanimatedtext;
+animation-duration: .3s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+}
+.v-text-3{
+  
+  animation-name:showanimatedtext;
+animation-duration: .3s;
+animation-delay: 2s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+}
+.v-text-4{
+ 
+  animation-name:showanimatedtext;
+animation-duration: .3s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+}
+.v-text-5{
+  
+  animation-name:showanimatedtext;
+animation-duration: .3s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+}
+@keyframes showanimatedtext {
+  0%{
+    opacity: 0;
+    
+  }20%{
+    opacity: 0.3;
+  }
+  40%{
+    opacity: 0.5;
+  }
+  80%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 1;
+    
+  }
+}
+@media(max-width:576px){
+  .slideshow-container{
+    overflow: hidden;
+  }
+  .video-heading2 span,.video-heading3 span,.video-heading4 span,.video-heading5 span,.video-heading6 span{
+    margin-left: -1px;
+  }
+  .mySlides img,.mySlides video{
+    width: 180% !important;
+  }.text{
+    top:87% !important
+  }
+}
+@media(max-width:476px){
+  .text{
+    top:85% !important
+  }
+}
+@media(max-width:420px){
+  .text{
+    top:82% !important
+  }
+}
+
+
+
+.video-heading2{
+  z-index: 3; position: absolute;left: 35%; top:40%;
   color: white;
   font-size: 4rem;
-  font-family: "Noto Serif Display", serif;
+  font-family: 'Noto Serif Display', serif;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  animation-name: showHeading1;
-  animation-duration: 0.2s;
-  animation-delay: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-
-  animation-fill-mode: backwards;
-}
-@keyframes showHeading1 {
-  0% {
-    opacity: 0;
-    transform: translateX(20%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
+  
 }
 
-.video-heading2 {
-  z-index: 3;
-  position: absolute;
-  left: 35%;
-  top: 40%;
-  color: white;
-  font-size: 4rem;
-  font-family: "Noto Serif Display", serif;
-  text-align: center;
-  animation-name: showHeading2;
-  animation-duration: 0.2s;
-  animation-delay: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-
-  animation-fill-mode: backwards;
-}
-@keyframes showHeading2 {
-  0% {
-    opacity: 0;
-    transform: translateX(-10%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-.video-para {
-  z-index: 3;
-  position: absolute;
-  left: 45%;
-  top: 50%;
+.video-para{
+  z-index: 3; position: absolute;left: 45%; top:50%;
   color: white;
   font-size: 1rem;
-
+ 
   text-align: center;
-  animation-name: showpara;
-  animation-duration: 0.2s;
+  animation-name:showpara;
+  animation-duration: .2s;
   animation-delay: 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-
+  
   animation-fill-mode: backwards;
+
 }
 @keyframes showpara {
-  0% {
+  0%{
     opacity: 0;
     transform: translateY(10%);
-  }
-  100% {
+  }100%{
     opacity: 1;
     transform: translateY(0%);
   }
 }
-.video-heading3 {
-  z-index: 3;
-  position: absolute;
-  left: 35%;
-  top: 30%;
+.video-heading3{
+  z-index: 3; position: absolute;left: 35%; top:30%;
   color: white;
   font-size: 4rem;
-  font-family: "Noto Serif Display", serif;
+  font-family: 'Noto Serif Display', serif;
   text-align: center;
-  animation-name: showHeading1;
-  animation-duration: 0.2s;
-  animation-delay: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
 
-  animation-fill-mode: backwards;
 }
-.video-heading4 {
-  z-index: 3;
-  position: absolute;
-  left: 35%;
-  top: 40%;
+.video-heading4{
+z-index: 3; position: absolute;left: 35%; top:40%;
+color: white;
+font-size: 4rem;
+font-family: 'Noto Serif Display', serif;
+text-align: center;
+
+
+animation-fill-mode: backwards;
+}
+.video-para2{
+z-index: 3; position: absolute;left: 40%; top:53%;
+color: white;
+font-size: 1rem;
+
+text-align: center;
+animation-name:showpara;
+animation-duration: .2s;
+animation-delay: 2s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
+}
+.video-heading5{
+  z-index: 3; position: absolute;left: 35%; top:30%;
   color: white;
   font-size: 4rem;
-  font-family: "Noto Serif Display", serif;
+  font-family: 'Noto Serif Display', serif;
   text-align: center;
-  animation-name: showHeading2;
-  animation-duration: 0.2s;
-  animation-delay: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-
-  animation-fill-mode: backwards;
+ 
 }
-.video-para2 {
-  z-index: 3;
-  position: absolute;
-  left: 40%;
-  top: 53%;
-  color: white;
-  font-size: 1rem;
+.video-heading6{
+z-index: 3; position: absolute;left: 35%; top:40%;
+color: white;
+font-size: 4rem;
+font-family: 'Noto Serif Display', serif;
+text-align: center;
 
-  text-align: center;
-  animation-name: showpara;
-  animation-duration: 0.2s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-
-  animation-fill-mode: backwards;
 }
-.video-heading5 {
-  z-index: 3;
-  position: absolute;
-  left: 35%;
-  top: 30%;
-  color: white;
-  font-size: 4rem;
-  font-family: "Noto Serif Display", serif;
-  text-align: center;
-  animation-name: showHeading1;
-  animation-duration: 0.2s;
-  animation-delay: 5s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
+.video-para3{
+z-index: 3; position: absolute;left: 35%; top:53%;
+color: white;
+font-size: 1rem;
 
-  animation-fill-mode: backwards;
+text-align: center;
+animation-name:showpara;
+animation-duration: .2s;
+animation-delay: 2s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+
+animation-fill-mode: backwards;
 }
-.video-heading6 {
-  z-index: 3;
-  position: absolute;
-  left: 35%;
-  top: 40%;
-  color: white;
-  font-size: 4rem;
-  font-family: "Noto Serif Display", serif;
-  text-align: center;
-  animation-name: showHeading2;
-  animation-duration: 0.2s;
-  animation-delay: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-
-  animation-fill-mode: backwards;
+@media(max-width:1870px){
+  .text{
+    top:93%
+  }
 }
-.video-para3 {
-  z-index: 3;
-  position: absolute;
-  left: 35%;
-  top: 53%;
-  color: white;
-  font-size: 1rem;
-
-  text-align: center;
-  animation-name: showpara;
-  animation-duration: 0.2s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-
-  animation-fill-mode: backwards;
+@media(max-width:1620px){
+  .text{
+    top:92%
+  }
 }
-@media (max-width: 1400px) {
-  .video-heading1,
-  .video-heading2,
-  .video-heading3,
-  .video-heading4,
-  .video-heading5,
-  .video-heading6 {
+@media(max-width:1410px){
+  .text{
+    top:91%
+  }
+}
+@media(max-width:1400px){
+  .video-heading1,.video-heading2,.video-heading3,.video-heading4,.video-heading5,.video-heading6{
     font-size: 3rem;
   }
 }
-@media (max-width: 991px) {
-  .video-heading1,
-  .video-heading2,
-  .video-heading3,
-  .video-heading4,
-  .video-heading5,
-  .video-heading6 {
+@media(max-width:1250px){
+  .text{
+    top:90%
+  }
+}
+@media(max-width:1130px){
+  .text{
+    top:88%
+  }
+}
+@media(max-width:991px){
+  .video-heading1,.video-heading2,.video-heading3,.video-heading4,.video-heading5,.video-heading6{
     font-size: 2rem;
   }
-  .video-para {
+  .video-para{
     left: 40%;
-  }
-  .video-para2 {
+  }.video-para2{
     left: 35%;
   }
-  .video-para3 {
+  .video-para3{
     left: 35%;
   }
 }
-@media (max-width: 576px) {
-  .video-heading1,
-  .video-heading2,
-  .video-heading3,
-  .video-heading4,
-  .video-heading5,
-  .video-heading6 {
+@media(max-width:950px){
+  .text{
+    top:86%
+  }
+}
+@media(max-width:800px){
+  .text{
+    top:84%
+  }
+}
+@media(max-width:700px){
+  .text{
+    top:82%
+  }
+}
+@media(max-width:600px){
+  .text{
+    top:78%
+  }
+}
+@media(max-width:576px){
+  .video-heading1,.video-heading2,.video-heading3,.video-heading4,.video-heading5,.video-heading6{
     font-size: 1.5rem;
   }
-  .video-para {
+  .video-para{
     left: 35%;
   }
-  .video-para3 {
+  .video-para3{
     left: 10%;
-  }
-  .slideshow-container {
+  }.slideshow-container{
     height: 80%;
   }
+
 }
-@media (max-width: 450px) {
-  .slideshow-container {
+@media(max-width:450px){
+  .slideshow-container{
     height: 100%;
   }
-  .video-heading1,
-  .video-heading2,
-  .video-heading3,
-  .video-heading4,
-  .video-heading5,
-  .video-heading6 {
+  .video-heading1,.video-heading2,.video-heading3,.video-heading4,.video-heading5,.video-heading6{
     font-size: 1rem;
   }
-  .video-para {
+  .video-para{
     font-size: 0.8rem;
   }
-  .video-para3,
-  .video-para2 {
-    font-size: 0.8rem;
+  .video-para3,.video-para2{
+   font-size: 0.8rem;
   }
 }
 /* slide2-para */
-.slide2-para {
-  z-index: 3;
-  position: absolute;
-  left: 40%;
-  top: 50%;
-  color: white;
-  font-weight: bold;
-  display: none;
+.slide2-para{
+    z-index: 3; position: absolute;left: 40%; top:50%;
+    color: white;
+    font-weight: bold;
+    display: none;
 }
-.slide2-overlay {
-  width: 100%;
+.slide2-overlay{
+  width:100%;
   position: relative;
 }
 
-.slide2-overlay::after {
+.slide2-overlay::after{
   position: absolute !important;
-  content: "" !important;
+  content: '' !important;
   width: 100% !important;
   height: 100% !important;
-  top: 0 !important;
+  top:0 !important;
   display: block;
   left: 0 !important;
-  background: rgba(0, 0, 0, 0.8) !important;
+  background: rgba(0,0,0,0.8) !important;
   z-index: 0 !important;
 }
 
@@ -324,9 +369,8 @@ img {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -356,13 +400,12 @@ img {
   width: 100px;
   margin: 0 2px;
   background-color: gray;
-
+ 
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active,
-.line:hover {
+.active, .line:hover {
   background-color: white;
   height: 2px;
 }
@@ -376,28 +419,16 @@ img {
 }
 
 @-webkit-keyframes fade-slide {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 @keyframes fade-slide {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev,
-  .next,
-  .text {
-    font-size: 11px;
-  }
+  .prev, .next,.text {font-size: 11px}
 }
